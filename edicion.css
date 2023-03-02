@@ -1,0 +1,45 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* EDIT +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;600;800&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons&display=swap');
+
+
+body		{ font-family: 'Roboto Condensed', sans-serif; font-weight:400; }
+
+h1 			{ font-size:96px; font-weight:400; line-height:120%; color:var(--colo-text-h1); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:16px; }
+h2			{ font-size:60px; font-weight:500; line-height:120%; color:var(--colo-text-h2); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:14px; }
+h3			{ font-size:48px; font-weight:800; line-height:120%; color:var(--colo-text-h3); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:12px; }
+h4			{ font-size:34px; font-weight:500; line-height:120%; color:var(--colo-text-h4); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:10px; }
+h5			{ font-size:24px; font-weight:400; line-height:110%; color:var(--colo-text-h5); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:08px; }
+h6			{ font-size:18px; font-weight:600; line-height:110%; color:var(--colo-text-h6); word-spacing:+0.0px; letter-spacing:+0.0px; margin-bottom:02px; margin-top:06px;}
+
+p, li		{ font-size:14px; font-weight:400; line-height:120%; color:var(--colo-text-pp); word-spacing:+1.0px; letter-spacing:+0.5px; margin-bottom:08px; }
+
+subtitle	{ font-size:18px; font-weight:500; line-height:100%; color:var(--colo-text-su); }
+subtitle1	{ font-size:16px; font-weight:400; line-height:110%; color:var(--colo-text-su); }
+subtitle2	{ font-size:14px; font-weight:300; line-height:110%; color:var(--colo-text-su); }
+
+body1		{ font-size:16px; font-weight:400; line-height:120%; color:var(--colo-text-bo); }
+body2		{ font-size:14px; font-weight:400; line-height:120%; color:var(--colo-text-bo); }
+
+overline	{ font-size:10px; font-weight:400; line-height:120%; color:var(--colo-text-ov); }
+
+a 			{ font-weight:500; color:var(--colo-text-aa); }
+strong		{ font-weight:700; }
+
+p .material-icons { font-size:16px; position:relative; top:3px; margin:-3px 3px; }
+
+.point 		{ cursor:pointer; }
+
+aside li i  { margin-top: -3px; color:var(--colo-prim-04); }
+aside li    { margin-left: 0px; }
+
+li          { list-style-type: disc; margin-left: 12px; }
+
+footer h6, 
+footer p   { color:var(--colo-00); }
+
+

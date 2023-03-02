@@ -1,0 +1,65 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* BODY +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+html { 
+	background: #222;
+}
+
+body {
+	background: #FFF;
+	margin: 0 auto;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	min-width: 360px;
+	max-width: 960px;
+	min-height: 640px;
+	display: grid;
+	grid-template-areas: 'h h h h h h' 'a m m m m m' 'f f f f f f';
+	grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto 1fr auto;
+}
+  
+header { 
+	grid-area: h;
+    background: var(--colo-head-01);
+}
+
+aside { 
+	grid-area: a;
+    background: var(--colo-side-01);
+    position: relative;
+    min-width: 160px;
+}
+
+aside div { 
+   position:fixed;
+   
+}
+
+main { 
+	grid-area: m;
+	background: var(--colo-main-01);
+	overflow1: hidden;
+}
+
+article {
+	width:100%;
+	box-sizing: border-box;
+}
+
+footer {
+	grid-area: f;
+	background: var(--colo-foot-01);
+}
+
+.main-content {
+	overflow: auto;	
+}
+
+.flot { position: absolute; display:none; }
+.hide { display: none; }
+.imag img { width: 100%; height:100%; object-fit:cover; display:block; }

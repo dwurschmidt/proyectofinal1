@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+	<link rel="shortcut icon" href="favicon.svg">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="colores.css">
+    <link rel="stylesheet" href="espacios.css">
+    <link rel="stylesheet" href="edicion.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="function.js"></script>	    
+        
+</head>
+
+<body>
+
+    <header class="padd pdv2 flex fxsb">
+        <h1>Curriculum Vitae</h1>
+        <div class="imag"><img src="foto.jpg" height="100px" width="150px"></div>
+    </header>
+
+    <footer class="padd pdv2 flxv gap1">
+        <h6>Datos de Contacto</h6>
+        <div>
+            <p>Domicilio: <strong>4262 Poplar Dr</strong></p>
+            <p>Teléfono: <strong>(324) 698-5300</strong></p>
+            <p>E-mail: <strong>victoria.duncan@example.com</strong></p>
+        </div>
+    </footer>
+
+    <aside class="padd pdv4 flxv gapp">
+        <div class="flxv gapp">
+            <li class="flex gap1"><i class="material-icons">account_circle</i><a href="#1">Datos personales</a></li>
+            <li class="flex gap1"><i class="material-icons">school</i><a href="#2">Formación</a></li>
+            <li class="flex gap1"><i class="material-icons">work</i><a href="#3">Experiencia</a></li>
+            <li class="flex gap1"><i class="material-icons">stars</i><a href="#4">Aspiraciones</a></li>
+        </div>
+    </aside>
+
+    <main class="flxv">
+
+        <script>
+            $(function(){ $('#fnac').change(function(e) { get_edad('#fnac','#edad'); }); });
+        </script>
+
+        <section class="fxau padd pdv3 flxv">
+            <h4><a name="1"></a>Datos personales</h4>
+            <p>Nombre: <strong>Victoria Duncan</strong></p>
+            <p>Nacimiento: <input id="fnac" type="date" name="fnac" value=""></p>
+            <p>Edad: <input id="edad" type="text" name="edad" value=""></p>
+            <p>Signo: <strong>Cancer</strong></p>
+        </section>
+        
+        <section class="fxau padd pdv2 flxv">
+            <h4><a name="2"></a>Formación</h4>
+            <h5>Vivamus velit est, pharetra vel iaculis vitae, bibendum a massa. Praesent posuere ante nec arcu dictum convallis. Donec varius tortor a tellus euismod, ac tincidunt nulla tristique.</h5>
+            <h6>Estudios Primarios</h6>
+            <p>Ut ac tellus arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam in posuere magna, sed faucibus felis. Nunc scelerisque, lectus quis euismod sagittis, leo dui euismod est, vehicula fringilla eros ligula id sem. Proin sit amet venenatis justo, nec porta orci. Fusce tincidunt felis vel justo luctus ornare. Duis scelerisque elit eu magna sollicitudin, et rutrum sem lacinia. Nulla porttitor lacinia quam. Aenean libero ligula, blandit at sodales eu, venenatis vitae mi. Fusce ut consectetur arcu. Pellentesque mauris eros, porta luctus ultrices at, lobortis sed mauris. Etiam vel mi eros. Aenean quis ligula eu massa imperdiet venenatis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<p>
+            <h6>Estudios Secundarios</h6>
+            <p>Morbi fringilla blandit magna et lacinia. Nullam dignissim diam non convallis pretium. Quisque egestas sapien vitae metus tempus ultrices. Phasellus gravida facilisis vulputate. Nulla aliquam nunc sit amet nisl suscipit lacinia. Mauris mollis tempor pretium. Aliquam felis nisi, imperdiet pellentesque sem non, faucibus consequat enim.</p>                
+            <h6>Estudios Universitarios</h6>
+            <p>Quisque fringilla enim risus, vel posuere lectus euismod vel. In turpis nibh, eleifend eget commodo quis, pellentesque in libero. Nullam rhoncus, mauris nec ullamcorper rutrum, nulla erat mattis felis, vitae bibendum lorem quam eu dui. Morbi metus massa, dictum sagittis dolor vel, semper posuere ante. Maecenas quis nisl non lectus mollis volutpat. Aliquam cursus felis dolor, eu porta est fermentum non. Etiam eget lacinia nibh, eu scelerisque sem.</p>            
+        </section>      
+
+        <section class="fxau padd pdv2 flxv">
+            <h4><a name="3"></a>Experiencia</h4>
+            <h6>Estudios Universitarios</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi justo. Pellentesque ut massa congue, sodales sem ut, volutpat ligula. 
+            <h6>Estudios Universitarios</h6>
+            <p>Aenean convallis nec nunc eget commodo. Nam ut interdum felis. Donec tempor eget lorem dignissim consequat. 
+            <h6>Estudios Universitarios</h6>
+            <p>Ut ac augue eu mi egestas dignissim. Integer non finibus quam. Praesent interdum neque vel orci tristique, in commodo odio gravida. In faucibus a purus ut imperdiet. Cras mollis mi a justo finibus tristique. Donec tristique arcu risus, non commodo justo auctor non. In hac habitasse platea dictumst.</p>
+            <h6>Estudios Universitarios</h6>
+            <p>Vestibulum at vehicula dui, ac venenatis mauris. Aliquam vehicula cursus lorem vitae maximus. Pellentesque ac hendrerit felis. 
+            <h6>Estudios Universitarios</h6>
+            <p>Aliquam sit amet ex non dolor ultricies ornare suscipit nec purus. Proin mattis ultricies quam, ut rutrum libero scelerisque in.
+            <h6>Estudios Universitarios</h6>
+            <p>Mauris nec magna malesuada, malesuada justo vitae, feugiat nibh. Fusce nec urna varius, pulvinar orci et, eleifend tellus. Fusce sit amet dapibus magna. Mauris venenatis ex mauris, in hendrerit ipsum consequat et. Donec ac ultricies augue. Vivamus dapibus euismod sagittis.</p>
+        </section>
+
+        <section class="fxau padd pdv2 flxv">
+            <h4><a name="4"></a>Aspiraciones</h4>
+            <li>Integer pulvinar est eu est feugiat consequat. Donec ac erat sem. Phasellus nulla augue, pharetra et lacus vel, interdum rutrum nulla.</li>
+            <li>In hac habitasse platea dictumst. Cras mattis dolor dolor, sit amet fringilla diam tristique sed. Quisque in mauris ante.</li>
+            <li>Integer blandit nisi neque, id auctor leo posuere nec.</li>
+            <li>Pellentesque convallis tempor aliquam. Suspendisse blandit nunc quis urna molestie hendrerit.</li>
+            <li>Phasellus pulvinar tristique nunc, a sollicitudin justo suscipit lobortis. Nullam eget diam bibendum, lacinia ligula nec, convallis nisl.</li>
+            <li>Etiam ac faucibus nisi. Quisque et felis ac turpis condimentum malesuada eget ac justo. Sed ultricies sem id urna imperdiet, in ultrices odio bibendum.</li>
+            <li>Donec consequat dapibus mi, nec placerat odio cursus at. Morbi et arcu quis lorem imperdiet faucibus. Praesent nec elementum mauris, ut accumsan dolor.</li>
+            <li>Nam quis mattis ex. Vivamus bibendum ultricies est, in condimentum felis mollis vitae. 
+            <li>Donec porta scelerisque lacus, tempus semper felis fringilla id. Quisque dignissim eu dolor a interdum. Vivamus accumsan, nibh nec malesuada malesuada.</li>
+        </section>      
+
+    </main>
+
+</body>
+
+</html>
